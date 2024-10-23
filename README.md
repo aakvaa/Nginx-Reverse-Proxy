@@ -1,4 +1,4 @@
-# Nginx-Reverse-Proxy para esteira CICD kubernetes
+# Nginx-Reverse-Proxy para esteira CICD kubernetes com Docker Compose
 
 Exemplo de configuração DNS
 

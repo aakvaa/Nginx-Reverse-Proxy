@@ -1,0 +1,13 @@
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    networks:
+      - kind # Você precisará definir a rede que acessa o Kubernetes
+
+networks:
+  kind:
+    external: true # Defina se for uma rede externa que o Kubernetes está utilizando
